@@ -7,9 +7,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+          main: ['var(--font-main)'],
+          second: ['var(--font-second)'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        mainColor: '#08090A'
       },
     },
   },
