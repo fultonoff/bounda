@@ -4,7 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 const getBlogs = async()=>{
-  const query = `*[_type == "post"]{ _id, title,slug, image, courtdescription, body }`
+  const query = `*[_type == "post"] | order(_createdAt asc) { _id, title,slug, image, courtdescription, body }`
 
   const data = await client.fetch(query)
   return data
