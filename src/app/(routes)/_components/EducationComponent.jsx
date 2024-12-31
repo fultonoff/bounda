@@ -22,7 +22,7 @@ const EducationComponent = () => {
                 </div>
                 <div className='font-bold'>{education.institution}</div>
             </div>
-            <div className='text-sm'>{education.name}</div>
+            <div className='text-sm text-mainColor/60'>{education.name}</div>
         </div>
             )
         })}
