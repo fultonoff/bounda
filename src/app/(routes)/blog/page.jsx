@@ -10,6 +10,7 @@ const getBlogs = async()=>{
   return data
 }
 
+export const revalidate = 0
 const Blog = async() => {
   const data = await getBlogs()
 
