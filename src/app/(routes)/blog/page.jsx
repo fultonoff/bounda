@@ -36,7 +36,7 @@ const Blog = async() => {
 
                   <p className="text-sm line-clamp-3 mt-2 text-mainColor/60">{blog.courtdescription}</p>
 
-                  <Link href={`blog/${blog.slug.current}`} className="text-sm  mt-10 block">Lire la suite →</Link>
+                  <div  className="text-sm  mt-10 block">Lire la suite →</div>
                 </div>
               </Link>
             )

@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import boudaImage from '../../../images/bounda.webp'
 const Header = () => {
+
+  console.log(process.env.NEXT_PUBLIC_SANITY_PROJECT_ID);
   return (
     <header className='center container'>
         <div className='flex gap-2 flex-col-reverse md:flex-row items-center'>
