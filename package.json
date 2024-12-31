@@ -18,6 +18,7 @@
     "react-dom": "^18.3.0",
     "react-portable-text": "^0.6.0",
     "sanity": "^3.68.3",
+    "sharp": "^0.33.5",
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
